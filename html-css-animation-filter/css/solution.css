@@ -67,3 +67,19 @@ transition: 2s;
   }
    
   }
+
+  .ex-11-icon:hover {
+    animation: rotation-2 1s linear infinite;
+    transition: ease-in-out;
+  }
+
+  @keyframes rotation-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(270deg);
+  }
+   
+  }

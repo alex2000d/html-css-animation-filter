@@ -52,3 +52,18 @@ transition: 2s;
     width: 330px;
     height: 330px;
   }
+
+  .ex-10-icon:hover {
+    animation: rotation 1s linear infinite;
+    
+  }
+
+  @keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+   
+  }

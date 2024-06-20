@@ -29,3 +29,7 @@ transition: 2s;
     height: 30px;
     transition: 2s;
   }
+
+  .ex-6-img:hover{
+    filter: grayscale(100%);
+  }

@@ -69,7 +69,7 @@ transition: 2s;
   }
 
   .ex-11-icon:hover {
-    animation: rotation-2 1s linear infinite;
+    animation: rotation-2 1s infinite;
     transition: ease-in-out;
   }
 
